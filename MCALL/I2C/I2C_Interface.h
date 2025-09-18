@@ -1,9 +1,3 @@
-/*
- * I2C_Interface.h
- *
- * Created on: Sep 16, 2025
- * Author: DELL
- */
 
 #ifndef I2C_INTERFACE_H_
 #define I2C_INTERFACE_H_
@@ -20,3 +14,4 @@ void I2C_Stop(void);
 void I2C_Write(u8 data);
 
 #endif /* I2C_INTERFACE_H_ */
+
