@@ -21,8 +21,8 @@ An embedded systems project for a dual-mode (Autonomous/Manual) RC car built aro
 
 ## 🧰Software Architecture
 The firmware follows a layered architecture:
-- **LIB:** Bit manipulation and standard data types.
-- **MCAL (Microcontroller Abstraction Layer):** Direct hardware drivers (DIO, PWM, I2C, UART).
+- **LIB:** Bit Math and standard data types.
+- **MCAL (Microcontroller Abstraction Layer):** Direct hardware drivers (DIO, I2C, UART).
 - **HAL (Hardware Abstraction Layer):** Device drivers (Ultrasonic, Motor, LCD, Servo).
 - **Application Layer:** Main application logic and mode switching.
 
@@ -33,8 +33,3 @@ The firmware follows a layered architecture:
 - **Programmer:** USBasp, AVRISP, or similar
 - **Software:** SimulIDE, Proteus for simulation (optional)
 - **Mobile App:** Any serial Bluetooth terminal app (e.g., 'Arduino Bluetooth Controller')
-
-### Installation & Usage1.
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/Autonomous-RC-Car-Project.git
