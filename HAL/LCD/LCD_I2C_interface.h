@@ -1,9 +1,3 @@
-/*
- * LCD_I2C_Interface.h
- *
- *  Created on: Sep 16, 2025
- *      Author: DELL
- */
 
 #ifndef HAL_LCD_LCD_I2C_INTERFACE_H_
 #define HAL_LCD_LCD_I2C_INTERFACE_H_
@@ -23,3 +17,4 @@ void LCD_String(const char *str);
 void LCD_SetCursor(u8 row, u8 col);
 
 #endif /* HAL_LCD_LCD_I2C_INTERFACE_H_ */
+
