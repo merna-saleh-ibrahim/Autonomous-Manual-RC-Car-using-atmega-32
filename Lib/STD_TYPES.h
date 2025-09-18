@@ -1,9 +1,3 @@
-/*
- * STD_TYPES.H
- *
- *  Created on: Sep 16, 2025
- *      Author: DELL
- */
 
 #ifndef LIB_STD_TYPES_H_
 #define LIB_STD_TYPES_H_
@@ -24,3 +18,4 @@ typedef double             f64;
 
 
 #endif /* LIB_STD_TYPES_H_ */
+
