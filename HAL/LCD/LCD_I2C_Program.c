@@ -1,10 +1,3 @@
-/*
- * LCD_I2C.c
- *
- *  Created on: Sep 11, 2025
- *      Author: mai saleh
- */
-
 #include <avr/io.h>
 #include <util/delay.h>
 #include "../../LIB/STD_TYPES.h"
@@ -68,3 +61,4 @@ void LCD_SetCursor(u8 row, u8 col) {
     else         pos = 0xC0 + col;
     LCD_Command(pos);
 }
+
