@@ -1,9 +1,3 @@
-/*
- * DIO_Interface.h
- *
- *  Created on: Sep 16, 2025
- *      Author: DELL
- */
 
 #ifndef MCALL_DIO_DIO_INTERFACE_H_
 #define MCALL_DIO_DIO_INTERFACE_H_
@@ -52,3 +46,4 @@ u8 DIO_u8GetPortValue(u8 Copy_u8Port, u8 *Copy_pu8Value);
 
 
 #endif /* MCALL_DIO_DIO_INTERFACE_H_ */
+
