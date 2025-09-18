@@ -1,9 +1,3 @@
-/*
- * BIT_MATH.H
- *
- *  Created on: Sep 16, 2025
- *      Author: DELL
- */
 
 #ifndef LIB_BIT_MATH_H_
 #define LIB_BIT_MATH_H_
@@ -15,3 +9,4 @@
 
 
 #endif /* LIB_BIT_MATH_H_ */
+
