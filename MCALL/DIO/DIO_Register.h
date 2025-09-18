@@ -1,9 +1,3 @@
-/*
- * DIO_Register.h
- *
- *  Created on: Sep 16, 2025
- *      Author: DELL
- */
 
 #ifndef MCALL_DIO_DIO_REGISTER_H_
 #define MCALL_DIO_DIO_REGISTER_H_
@@ -31,3 +25,4 @@
 #define PIND   (*(volatile u8*)0x30)
 
 #endif /* MCALL_DIO_DIO_REGISTER_H_ */
+
