@@ -2,7 +2,7 @@
 
 An embedded systems project for a dual-mode (Autonomous/Manual) RC car built around the ATmega32 microcontroller. Developed as part of the ITI AVR course.
 
-## Features
+## 🧠Features
 - **Dual Operating Modes:**
   - **Manual Mode:** Wireless control via a smartphone app over Bluetooth (HC-05).
   - **Autonomous Mode:** Line following and obstacle detection/avoidance using an ultrasonic sensor (HC-SR04).
@@ -10,7 +10,7 @@ An embedded systems project for a dual-mode (Autonomous/Manual) RC car built aro
 - **Obstacle Avoidance:** A servo motor sweeps the ultrasonic sensor to find a clear path.
 - **Layered Software Architecture:** Well-structured, modular firmware for easy maintenance and scalability.
 
-## Hardware Components
+## 🔧 Hardware Components
 - **Microcontroller:** ATmega32
 - **Motor Driver:** L298N
 - **Sensors:** HC-SR04 (Ultrasonic)
@@ -19,7 +19,7 @@ An embedded systems project for a dual-mode (Autonomous/Manual) RC car built aro
 - **Display:** 16x2 LCD with I2C Interface
 - **Power:** 12V Battery for Motors, 5V Regulator for MCU & Components
 
-## Software Architecture
+## 🧰Software Architecture
 The firmware follows a layered architecture:
 - **LIB:** Bit manipulation and standard data types.
 - **MCAL (Microcontroller Abstraction Layer):** Direct hardware drivers (DIO, PWM, I2C, UART).
